@@ -1,0 +1,372 @@
+body{
+    font-size: 16px;
+    line-height: 150%;
+    font-family: Montserrat, sans-serif;
+    font-weight:500;
+    background-color: white;
+    color: #774E2E;
+}
+
+.container{
+    max-width:1170px;
+    background-color: #ffffff;
+    margin:0 auto;
+}
+
+.header{
+    min-height:79px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .header-logo{
+    height:79px;
+}
+
+.header .header-nav{
+    display: flex;
+    align-items: center;
+}
+
+.header .header-nav .header-nav-items{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    padding-right: 25px;
+    color: #774E2E
+}
+
+.header .header-nav .header-nav-items .header-nav-item a{
+    text-decoration: none;
+    padding-right: 25px;
+    color: #774E2E;
+    text-align: right;
+    font-size: 16px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+    letter-spacing: 0.16px;
+}
+
+.intro{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.intro-text{
+    padding:130px;
+}
+
+.intro-text .intro-text-title{
+    color: var(--orange, #F37F34);
+    font-size: 85px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 100%;
+    letter-spacing: 5.5px;
+    margin: auto;
+}
+
+.intro-text .intro-text-title-pug{
+    color: var(--brown, #774E2E);
+    font-size: 110px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 100%;
+    letter-spacing: 5.5px;
+    margin: auto;
+}
+
+.intro-text .intro-text-sub{
+    display: flex;
+    width: 575px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: var(--brown, #774E2E);
+    font-size: 16px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0.16px;
+    position: relative;
+}
+
+.intro-text .intro-btn{
+    display: flex;
+    width: 337.918px;
+    flex-direction: column;
+    justify-content: center;
+    background: var(--brown, #774E2E);
+    width: 343px;
+    height: 69px;
+    flex-shrink: 0;
+
+}
+
+.intro-text .intro-btn a{
+    text-decoration: none;
+    color: var(--white, #FFF);
+    text-align: center;
+    font-size: 20px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+    letter-spacing: 0.2px;
+}
+
+.favorites{
+    background: var(--backgraund, #FFF9EA);
+    width: 100%;
+    height: 911px;
+    display: flex;
+    flex-direction: column;
+}
+
+.title-for-favorites{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.title-for-favorites .favorites-text{
+    color: #F37F34;
+    text-align: center;
+    font-size: 72px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%;
+    letter-spacing: 0.72px;
+    text-transform: uppercase;
+}
+.title-for-favorites .favorites-text-end{
+    color: #774E2E;
+    text-align: center;
+    font-size: 72px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%;
+    letter-spacing: 0.72px;
+    text-transform: uppercase;
+    padding-left: 15px;
+}
+
+.card-favorites{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card-favorites .redmak{
+    display: flex;
+    width: 370px;
+    padding-bottom: 0px;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    background: var(--white, #FFF);
+    padding: 19px;
+}
+
+.card-favorites .redmak .redmak-title{
+    color: var(--unnamed, #673B19);
+    text-align: center;
+    font-size: 24px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    letter-spacing: 0.24px;
+}
+
+.card-favorites .redmak .redmak-about{
+    display: flex;
+    width: 330px;
+    flex-direction: column;
+    color: var(--brown, #774E2E);
+    text-align: center;
+    font-size: 16px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0.16px;
+}
+
+.card-favorites .slivki{
+    display: flex;
+    width: 370px;
+    padding-bottom: 0px;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    background: var(--white, #FFF);
+    padding: 19px;
+    text-align: center;
+}
+
+.card-favorites .slivki .slivki-title{
+    color: var(--unnamed, #673B19);
+    text-align: center;
+    font-size: 24px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    letter-spacing: 0.24px;
+}
+
+.card-favorites .slivki .slivki-about{
+    display: flex;
+    width: 330px;
+    flex-direction: column;
+    color: var(--brown, #774E2E);
+    text-align: center;
+    font-size: 16px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0.16px;
+}
+
+.card-favorites .lighina{
+    display: flex;
+    width: 370px;
+    padding-bottom: 0px;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    background: var(--white, #FFF);
+    padding: 19px;
+}
+
+.card-favorites .lighina .lighina-title{
+    color: var(--unnamed, #673B19);
+    text-align: center;
+    font-size: 24px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    letter-spacing: 0.24px;
+}
+
+.card-favorites .lighina .lighina-about{
+    display: flex;
+    width: 330px;
+    flex-direction: column;
+    color: var(--brown, #774E2E);
+    text-align: center;
+    font-size: 16px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0.16px;
+}
+
+.footer-section{
+    max-width:1170px;
+    background-color: #ffffff;
+    margin:0 auto;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding: 150px;
+}
+
+.footer-section .sugestion-text .sugestion-text-title{
+    color: #F37F34;
+    font-size: 72px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%;
+    letter-spacing: 0.72px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.footer-section .sugestion-text .sugestion-text-title-pug{
+    color: #774E2E;
+    font-size: 72px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%;
+    letter-spacing: 0.72px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.footer-section .sugestion-text .sugestion-text-sub{
+    display: flex;
+    width: 575px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: var(--brown, #774E2E);
+    font-size: 16px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0.16px;
+}
+
+.footer-section .sugestion-text .sugestion-btn{
+    color: var(--unnamed, #673B19);
+    font-size: 24px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    letter-spacing: 0.24px;
+}
+
+.footer-section .sugestion-text .candy-from-pug .candy{
+    color: var(--brown, #774E2E);
+    font-size: 16px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0.16px;
+}
+
+.footer-section .sugestion-foto{
+    width: 575px;
+    height: 722px;
+    flex-shrink: 0;
+}
+
+.footer{
+    display: flex;
+    height: 179px;
+    justify-content: space-evenly;
+    align-items: center;
+    background: var(--brown, #774E2E);
+    min-height:79px;
+}
+
+.footer .footer-logo{
+    display: flex;
+    padding: 40px;
+}
+
+.footer .footer-text{
+    color: var(--white, #FFF);
+    font-size: 30px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+    letter-spacing: 0.36px;
+}
